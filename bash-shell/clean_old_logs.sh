@@ -1,8 +1,7 @@
 #!/bin/bash
-# ========================================
-# 🧹 Script: clean_old_logs.sh
-# 🎯 Mục đích: Xoá các file log cũ hơn 1 ngày
-# ========================================
+#  Script: clean_old_logs.sh
+#  Mục đích: Xoá các file log cũ hơn 1 ngày
+
 
 LOG_DIR="logs"
 

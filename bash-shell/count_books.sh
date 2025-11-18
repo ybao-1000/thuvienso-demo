@@ -1,9 +1,10 @@
 #!/bin/bash
+
 # Script: count_books.sh
 # Chức năng: Đếm số lượng sách trong file books.json
 
 
-DATA_FILE="static/data/books.json"
+DATA_FILE="../static/data/books.json"
 
 # Kiểm tra xem file có tồn tại không
 if [ ! -f "$DATA_FILE" ]; then

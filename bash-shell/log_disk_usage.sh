@@ -1,8 +1,8 @@
 #!/bin/bash
-# ========================================
+
 # Script: log_disk_usage.sh
 # Mục đích: Giám sát dung lượng ổ đĩa và file dữ liệu thư viện số
-# ========================================
+
 
 LOG_FILE="logs/disk_usage.log"
 DATA_FILE="static/data/books.json"

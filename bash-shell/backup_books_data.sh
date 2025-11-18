@@ -2,12 +2,9 @@
 
 # Script: backup_books_data.sh
 # Chức năng: Tự động sao lưu dữ liệu thư viện số
-# Tác giả: [Tên của mày]
-# Ngày tạo: $(date +%F)
-
 
 # Đường dẫn đến file dữ liệu gốc
-SOURCE_FILE="bash-shell/backup_books_data.sh"
+SOURCE_FILE="../static/data/books.json"
 
 # Thư mục lưu bản sao lưu
 BACKUP_DIR="/home/ubuntu/iDragonCloud/thuvienso-backup"
@@ -22,7 +19,7 @@ mkdir -p "$BACKUP_DIR"
 # Thực hiện sao lưu
 if [ -f "$SOURCE_FILE" ]; then
     cp "$SOURCE_FILE" "$BACKUP_FILE"
-    echo "✅ Backup thành công: $BACKUP_FILE"
+    echo "Backup thành công: $BACKUP_FILE"
 else
-    echo "❌ Lỗi: Không tìm thấy file dữ liệu tại $SOURCE_FILE"
+    echo "Lỗi: Không tìm thấy file dữ liệu tại $SOURCE_FILE"
 fi

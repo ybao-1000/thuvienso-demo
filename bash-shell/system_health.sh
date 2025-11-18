@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Script: system_health.sh
 # Mục đích: Kiểm tra hiệu suất hoạt động của hệ thống (CPU, RAM, Disk)
 
