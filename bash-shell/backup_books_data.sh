@@ -4,7 +4,7 @@
 # Chức năng: Tự động sao lưu dữ liệu thư viện số
 
 # Đường dẫn đến file dữ liệu gốc
-SOURCE_FILE="../static/data/books.json"
+SOURCE_FILE="static/data/books.json"
 
 # Thư mục lưu bản sao lưu
 BACKUP_DIR="/home/ubuntu/iDragonCloud/thuvienso-backup"
